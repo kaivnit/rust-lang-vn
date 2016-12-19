@@ -1,0 +1,269 @@
+# Rust user logos
+
+# If you are a "production" user of Rust, you are encouraged to add
+# your organization's information here to have it displayed on and
+# linked from the Rust web page. Organizations are listed
+# alphabetically.
+
+# The 'how' field should be one short sentence, ideally with a link
+# providing evidence (other prospective users will be interested to
+# know details). The UI for this can't accomodate more than about two
+# lines of text.
+
+# To have your pull request accepted, you must additionally provide us
+# the name and email of a contact within your organization who the
+# Rust team can contact should we need to make changes to the web
+# page. You may either do this on the pull request itself, or
+# alternately email rust-logos@rust-lang.org with the subject line
+# "Rust User Logo Contact". This information will be kept private.
+
+# Logos will be displayed against a white background and constrained
+# via CSS to a width of 200px by 100px. To support high-resolution
+# displays, consider submitting your image at a resolution of at least
+# 400px by 200px.
+
+-
+  name: 1aim
+  url: https://1aim.com/
+  logo: 1aim.svg
+  how: "Modern, secure and universal access management."
+-
+  name: 3DR
+  url: https://3dr.com/
+  logo: 3dr.svg
+  how: "Rust handles communications through USB devices to critical components for Flight and our Mobile apps."
+-
+  name: Academia.edu
+  url: https://www.academia.edu/
+  logo: academia.edu.svg
+  how: "Turning strings into structured paper and author data, <a href='https://github.com/djudd/human-name-rb'>faster than Ruby</a>."
+-
+  name: AgilData
+  url: http://www.agildata.com/
+  logo: agildata.svg
+  how: "<a href='http://www.agildata.com/packet-capturing-mysql-with-rust/'>MySQL packet capture tool</a>."
+-
+  name: Algorithmia
+  url: https://algorithmia.com/
+  logo: algorithmia.png
+  how: "<a href='http://blog.algorithmia.com/2016/05/algorithmia-now-supports-python-3-javascript-rust-ruby/'>Rust algorithm development</a> is a first-class citizen of our platform."
+-
+  name: ANIXE
+  url: http://www.anixe.pl/
+  logo: anixe.png
+  how: "Building the next generation travel services trading platform in Rust."
+-
+  name: AppSignal
+  url: https://appsignal.com/
+  logo: appsignal.png
+  how: "Fast and robust monitoring agent for web applications."
+-
+  name: Ather Energy
+  url: https://www.atherenergy.com/
+  logo: ather.svg
+  how: "Sending scooter data to the cloud reliably."
+-
+  name: Autumn
+  url: http://autumnai.com
+  logo: autumn.png
+  how: "<a href='https://medium.com/@autumn_eng/about-rust-s-machine-learning-community-4cda5ec8a790'>Machine learning in Rust</a>."
+-
+  name: Beget
+  url: https://beget.com
+  logo: beget.png
+  how: "As part of backup, resource management systems and <a href='https://github.com/LTD-Beget/syncookied'>DDOS mitigation</a>"
+-
+  name: Calyptech
+  url: http://calyptech.com
+  logo: calyptech.png
+  how: "Used for high performance embedded system components as an alternative to C."
+-
+  name: Canonical
+  url: http://www.canonical.com
+  logo: canonical.svg
+  how: "Everything from server monitoring to middleware!"
+-
+  name: Ceph
+  url: http://ceph.com
+  logo: ceph.png
+  how: "Rust <a href='https://github.com/ceph/ceph-rust'>bindings for librbd</a>, an interface into the Ceph storage platform."
+-
+  name: Chef
+  url: https://www.chef.io/
+  logo: chef.svg
+  how: "<a href='https://github.com/chef/delivery-cli'>Chef lets you develop, deploy and manage infrastructure, run-time environments and applications.</a>"
+-
+  name: Clever Cloud
+  url: https://www.clever-cloud.com/
+  logo: clever-cloud.svg
+  how: "We <a href='https://www.clever-cloud.com/doc/rust/rust/'>host Rust web applications</a>, and a part of our infrastructure is developed in Rust."
+-
+  name: Coursera
+  url: https://www.coursera.org
+  logo: coursera.png
+  how: "<a href='https://building.coursera.org/blog/2016/07/07/rust-docker-in-production-coursera/'>Programming Assignments</a> in <a href='http://betacs.pro/blog/2016/07/07/docker-and-rust/'>secured Docker containers</a>."
+-
+  name: Coturnix
+  url: http://www.coturnix.fr/
+  logo: coturnix.png
+  how: "Machine learning and optimization for minimizing energy consumption in buildings."
+-
+  name: craft ai
+  url: http://craft.ai
+  logo: craftai.png
+  how: "Our core machine learning engine is written in Rust."
+-
+  name: Dazta
+  url: https://www.dazta.com
+  logo: dazta.svg
+  how: "Building intelligent financial product with Rust."
+-
+  name: Delimiter
+  url: https://www.delimiter.com/
+  logo: delimiter.png
+  how: "Rust powers our bare metal provisioning system."
+-
+  name: Dropbox
+  url: https://www.dropbox.com
+  logo: dropbox.svg
+  how: "<a href='http://www.wired.com/2016/03/epic-story-dropboxs-exodus-amazon-cloud-empire/'>Optimizing cloud file-storage</a>."
+-
+  name: Ethcore
+  url: https://ethcore.io
+  logo: ethcore.png
+  how: "<a href='https://ethcore.io/parity.html'>Powering the Ethereum revolution.</a>"
+-
+  name: Everlane
+  url: http://www.everlane.com/
+  logo: everlane.png
+  how: "<a href='https://precompile.com/2016/06/23/shipping-forgettable-microservices-with-rust.html'>Dependable, high-performance metrics aggregation and forwarding</a>."
+-
+  name: Faraday
+  url: http://faraday.io
+  logo: faraday.svg
+  how: "<a href='https://github.com/faradayio/credentials_to_env'>Securely transferring credentials.</a>"
+-
+  name: Gremlin Inc
+  url: https://www.gremlininc.com
+  logo: gremlininc.svg
+  how: "Safely and efficiently causing controlled chaos."
+-
+  name: Habitat
+  url: https://www.habitat.sh
+  logo: habitat.svg
+  how: "<a href='https://github.com/habitat-sh/habitat'>Habitat is automation that travels with the app.</a>"
+-
+  name: Honeypot
+  url: https://www.honeypot.io/
+  logo: honeypot.svg
+  how: "We <a href='http://blog.honeypot.io/open-sourcing-searchspot/'>built and use Searchspot</a>, a kind of search engine based on Elasticsearch. Recruiters use it to search for the developers they're looking for."
+-
+  name: LINE
+  url: https://line.me/
+  logo: line.png
+  how: "For a configuration agent."
+-
+  name: Linki Tools
+  url: http://linki.tools/
+  logo: linkitools.png
+  how: "For testing and verification of toolchains."
+-
+  name: MaidSafe
+  url: http://www.maidsafe.net
+  logo: maidsafe.svg
+  how: "Building a decentralised data and communications network."
+-
+  name: Mozilla
+  url: https://www.mozilla.org
+  logo: mozilla.png
+  how: "Building the <a href='https://servo.org'>Servo</a> browser engine, <a href='https://bugzilla.mozilla.org/show_bug.cgi?id=1135640'>integrating into Firefox</a>, other projects."
+-
+  name: Navitia
+  url: http://www.navitia.io
+  logo: navitia.svg
+  how: "<a href='https://github.com/CanalTP/mimirsbrunn'>Geocoding service built over Elasticsearch.</a>"
+-
+  name: npm, Inc
+  url: http://www.npmjs.com
+  logo: npm.svg
+  how: "Replacing C and rewriting performance-critical bottlenecks in the registry service architecture."
+-
+  name: OneSignal
+  url: https://onesignal.com
+  logo: onesignal.svg
+  how: "High volume, cross platform push notification <a href='https://onesignal.com/blog/announcing-our-new-delivery-backend/'>delivery</a>."
+-
+  name: OVH
+  url: https://www.ovh.com
+  logo: ovh.png
+  how: "We used Rust to build a high performance, highly available <a href='https://www.runabove.com/paas-logs.xml'>log management system</a>."
+-
+  name: Postmates
+  url: https://postmates.com/
+  logo: postmates.png
+  how: "Rust is being incubated in the Infrastructure team to write system daemons."
+-
+  name: PingCAP
+  url: https://github.com/pingcap/tikv
+  logo: pingcap.png
+  how: "Building a distributed key-value store with Rust and Raft."
+-
+  name: PurchaseClinic.com
+  url: http://purchaseclinic.com/
+  logo: purchaseclinic.com.png
+  how: "Our backend (REST API) is a 100% Rust server, based on Iron."
+-
+  name: Sandstorm
+  url: https://sandstorm.io
+  logo: sandstorm-logo-rust.svg
+  how: "The backend of <a href='https://sandstorm.io/news/2016-08-09-collections-app'>our Collections app</a> is written in Rust."
+-
+  name: Sentry
+  url: https://www.getsentry.com/
+  logo: sentry-horizontal-black.svg
+  how: "<a href='http://lucumr.pocoo.org/2016/7/10/rust-rest/'>A command-line client for the Sentry API.</a>"
+-
+  name: slowtec
+  url: http://www.slowtec.de/
+  logo: slowtec.svg
+  how: "Our robust & reliable automation systems are entirely written in Rust."
+-
+  name: Snips
+  url: https://snips.ai/
+  logo: snips.svg
+  how: "<a href='https://github.com/snipsco/rust-threshold-secret-sharing'>AI assistants that are private by design</a>."
+-
+  name: Spoqa
+  url: https://www.spoqa.com/
+  logo: spoqa.png
+  how: "Our POS integration SDK is entirely written in Rust."
+-
+  name: Stratum Security
+  url: https://stratumsecurity.com/
+  logo: stratum.png
+  how: "Data exfiltration testing and Application Security."
+-
+  name: Tessel
+  url: https://www.tessel.io
+  logo: tessel.svg
+  how: "Single-board computing platform supports Rust applications."
+-
+  name: thoughtram
+  url: http://thoughtram.io
+  logo: thoughtram.png
+  how: "The backend of our training platform classroom.thoughtram.io is 100 % Rust using nickel.rs"
+-
+  name: Tilde
+  url: http://www.tilde.io
+  logo: tilde.png
+  how: "<a href='http://blog.skylight.io/rust-means-never-having-to-close-a-socket/'>Optimizing Skylight</a>, the Rails profiler."
+-
+  name: TrafficLand
+  url: http://www.trafficland.com/
+  logo: trafficland.svg
+  how: "Video transcoding, manipulation, and analysis."
+-
+  name: Xero
+  url: https://www.xero.com
+  logo: xero.png
+  how: "Infrastructure for beautiful accounting software."

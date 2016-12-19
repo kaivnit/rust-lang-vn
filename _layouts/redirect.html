@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ngôn ngữ lập trình Rust</title>
+    <script type="text/javascript">
+      // a list of mappings, the keys are what we might get from a browser, and the
+      // values are what URL we should send that value to.
+      var languages = {
+        "en": "en-US",
+        "en-US": "en-US",
+        "fr": "fr",
+        "fr-FR": "fr", // Prevents 404 on existing links
+        "ko": "ko-KR",
+        "ko-KR": "ko-KR",
+        "pt": "pt-BR", // For now, since there's no pt-PT page, redirect to pt-BR
+        "pt-BR": "pt-BR",
+        "ru": "ru-RU",
+        "ru-RU": "ru-RU",
+        "zh": "zh-CN",
+        "zh-CN": "zh-CN",
+        "vi": "vi-VN",
+        "vi-VN": "vi-VN",
+      };
+
+      // look up the provided language in the map
+      var code = window.navigator.language || window.navigator.userLanguage || "en";
+      var language = languages[code];
+
+      // if we didn't find a supporting language, default to en-US
+      if (!language) { language = "en-US"; }
+
+      document.location = "/" + language + '{{ page.url }}';
+    </script>
+    <noscript>
+      <meta http-equiv="refresh" content="0; url=/en-US{{ page.url }}">
+    </noscript>
+  </head>
+  <body>
+    <p><a href="/en-US{{ page.url }}">Click here</a> to be redirected.</p>
+  </body>
+</html>
