@@ -1,10 +1,9 @@
-# rust-www
-
+# rust-lang-vn
 This repository contains the source files for rust-lang.org.
 
 ## Deployment
 
-[![Build Status](https://travis-ci.org/rust-lang/rust-www.svg?branch=master)](https://travis-ci.org/rust-lang/rust-www)
+[![Build Status](https://travis-ci.org/rust-vietnam/rust-lang-vn.svg?branch=master)](https://travis-ci.org/rust-vietnam/rust-lang-vn)
 
 The site is built with TravisCI and automatically deployed to S3.
 
