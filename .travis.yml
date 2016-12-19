@@ -24,7 +24,7 @@ deploy:
   acl: public_read
   skip_cleanup: true
   local_dir: _site
-  region: us-west-2
+  region: ap-southeast-1
   on:
     branch: master
     condition: $TRAVIS_PULL_REQUEST = "false"
