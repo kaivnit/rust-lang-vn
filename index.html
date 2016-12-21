@@ -3,7 +3,8 @@ layout: basic
 title: Ngôn ngữ lập trình Rust
 ---
 
-    <div class="row install-row">
+    <div class="row pitch-row">
+
       <div class="col-md-8">
         <p class="pitch">
           <b>Rust</b> là một ngôn ngữ lập trình có tốc độ thực thi nhanh,
@@ -13,21 +14,11 @@ title: Ngôn ngữ lập trình Rust
           <b><a href="/friends.html">Những công ty đang dùng Rust.</a></b>
         </p>
       </div>
-      <div class="col-md-4 install-box">
-        <span class="version-rec-box-inner">
-          Phiên bản nên tải về:<br>
-          <span id="install-version"
-                data-type-linux="Linux binary"
-                data-type-windows="Windows Installer"
-                data-type-mac="Mac Installer"
-                data-type-source="source">
-            {{ site.stable }}
-            (<span>source</span>)
-          </span>
-        </span>
-        <a class="btn btn-primary" id="inst-link"
-           href="https://static.rust-lang.org/dist/rustc-{{ site.stable }}-src.tar.gz">Cài đặt</a>
-        <a class="btn btn-default" href="/install.html" role="button">Cách cài đặt khác</a>
+      <div class="col-md-4">
+          <a class="release-button" href="install.html">
+              <div class="release-version">Cài đặt Rust <span>{{ site.stable }}</span></div>
+          </a>
+          <div class="release-date">{{ site.stable_date | date: "%B %-d, %Y" }}</div>
       </div>
     </div>
 
@@ -69,6 +60,4 @@ title: Ngôn ngữ lập trình Rust
         {% include editor.js %}
       });
     });
-
-    {% include set_platform.js %}
   </script>
