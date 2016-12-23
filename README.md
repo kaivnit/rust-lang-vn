@@ -1,5 +1,5 @@
 # rust-lang-vn
-This repository contains the source files for rust-lang.org.
+This repository contains the source files for [rust-lang.vn](https://rust-lang.vn).
 
 ## Deployment
 
