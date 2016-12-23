@@ -1,0 +1,28 @@
+<div class="details panel panel-info">
+    <div class="panel-heading">{{ node.name }}</div>
+    <div class="panel-body">
+        <div class="description" ng-if="node.description">
+            <p class="text-info">{{ node.description }}</p>
+        </div>
+        <div class="url" ng-if="node.url">
+            <a href="{{ node.url }}">{{ node.url }}</a>
+        </div>
+
+        <div class="properties" ng-if="node.details.Components">
+            <h5 class="text-primary" >Components</h5>
+            <ul>
+                <li ng-repeat="component in node.details.Components" class="text-primary">
+                    {{ component }} <span class="glyphicon glyphicon-ok" ng-if="node.displayIconOk" aria-hidden="true"></span>
+                </li>
+            </ul>
+
+            <i ng-if="!node.displayIconOk">* <small class="text-muted">These are bare-metal microcontroller targets that only have access to the core library, not std</small></i> 
+        </div>
+
+        <div class="properties" ng-if="node.notes">
+            <h5 class="text-warning">Notes</h5>
+            <p class="text-warning">{{ node.notes }}</p>
+        </div>
+
+    </div>
+</div>

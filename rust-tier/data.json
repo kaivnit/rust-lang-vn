@@ -1,0 +1,333 @@
+{
+  "name": "Root",
+  "children": [
+    {
+      "name": "Tier 1",
+      "description": "Official binary releases are provided for the platform. Automated testing is set up to run tests for the platform. ",
+      "children": [
+        {
+          "name": "i686-apple-darwin",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "32-bit OSX (10.7+, Lion+)"
+        },
+        {
+          "name": "i686-pc-windows-gnu",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "32-bit MinGW (Windows 7+)"
+        },
+        {
+          "name": "i686-pc-windows-msvc",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "32-bit MSVC (Windows 7+)"
+        },
+        {
+          "name": "i686-unknown-linux-gnu",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "32-bit Linux (2.6.18+)"
+        },
+        {
+          "name": "x86_64-apple-darwin",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "64-bit OSX (10.7+, Lion+)"
+        },
+        {
+          "name": "x86_64-pc-windows-gnu",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "64-bit MinGW (Windows 7+)"
+        },
+        {
+          "name": "x86_64-pc-windows-msvc",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "64-bit MSVC (Windows 7+)"
+        },
+        {
+          "name": "x86_64-unknown-linux-gnu",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "64-bit Linux (2.6.18+)"
+        }
+      ]
+    },
+    {
+      "name": "Tier 2",
+      "description": "Automated tests are not run so it's not guaranteed to produce a working build, but platforms often work to quite a good degree and patches are always welcome!",
+      "children": [
+        {
+          "name": "aarch64-apple-ios",
+          "components": ["std"],
+          "notes": "ARM64 iOS"
+        },
+        {
+          "name": "aarch64-unknown-linux-gnu",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "ARM64 Linux"
+        },
+        {
+          "name": "arm-linux-androideabi",
+          "components": ["std"],
+          "notes": "ARMv7 Android"
+        },
+        {
+          "name": "arm-unknown-linux-gnueabi",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "ARMv6 Linux"
+        },
+        {
+          "name": "arm-unknown-linux-musleabi",
+          "components": ["std"],
+          "notes": "ARMv6 Linux with MUSL"
+        },
+        {
+          "name": "arm-unknown-linux-gnueabihf",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "ARMv6 Linux, hardfloat"
+        },
+        {
+          "name": "arm-unknown-linux-musleabihf",
+          "components": ["std"],
+          "notes": "ARMv6 Linux, MUSL, hardfloat"
+        },
+        {
+          "name": "armv7-apple-ios",
+          "components": ["std"],
+          "notes": "ARMv7 iOS, Cortex-a8"
+        },
+        {
+          "name": "armv7-unknown-linux-gnueabihf",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "ARMv7 Linux"
+        },
+        {
+          "name": "armv7-unknown-linux-musleabihf",
+          "components": ["std"],
+          "notes": "ARMv7 Linux with MUSL"
+        },
+        {
+          "name": "armv7s-apple-ios",
+          "components": ["std"],
+          "notes": "ARMv7 iOS, Cortex-a9"
+        },
+        {
+          "name": "asmjs-unknown-emscripten",
+          "components": ["std"],
+          "notes": "asm.js via Emscripten"
+        },
+        {
+          "name": "i386-apple-ios",
+          "components": ["std"],
+          "notes": "32-bit x86 iOS"
+        },
+        {
+          "name": "i586-pc-windows-msvc",
+          "components": ["std"],
+          "notes": "32-bit Windows w/o SSE"
+        },
+        {
+          "name": "i686-unknown-linux-musl",
+          "components": ["std"],
+          "notes": "32-bit Linux with MUSL"
+        },
+        {
+          "name": "mips-unknown-linux-gnu",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "MIPS Linux"
+        },
+        {
+          "name": "mips-unknown-linux-musl",
+          "components": ["std"],
+          "notes": "MIPS Linux with MUSL"
+        },
+        {
+          "name": "mipsel-unknown-linux-gnu",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "MIPS (LE) Linux"
+        },
+        {
+          "name": "mipsel-unknown-linux-musl",
+          "components": ["std"],
+          "notes": "MIPS (LE) Linux with MUSL"
+        },
+        {
+          "name": "mips64-unknown-linux-gnuabi64",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "MIPS Linux"
+        },
+        {
+          "name": "mips64el-unknown-linux-gnuabi64",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "MIPS (LE) Linux"
+        },
+        {
+          "name": "powerpc-unknown-linux-gnu",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "PowerPC Linux"
+        },
+        {
+          "name": "powerpc64-unknown-linux-gnu",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "PPC64 Linux"
+        },
+        {
+          "name": "powerpc64le-unknown-linux-gnu",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "PPC64LE Linux"
+        },
+        {
+          "name": "s390x-unknown-linux-gnu",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "S390x Linux"
+        },
+        {
+          "name": "wasm32-unknown-emscripten",
+          "components": ["std"],
+          "notes": "WebAssembly via Emscripten"
+        },
+        {
+          "name": "x86_64-apple-ios",
+          "components": ["std"],
+          "notes": "64-bit x86 iOS"
+        },
+        {
+          "name": "x86_64-rumprun-netbsd",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "64-bit NetBSD Rump Kernel"
+        },
+        {
+          "name": "x86_64-unknown-freebsd",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "64-bit FreeBSD"
+        },
+        {
+          "name": "x86_64-unknown-linux-musl",
+          "components": ["std"],
+          "notes": "64-bit Linux with MUSL"
+        },
+        {
+          "name": "x86_64-unknown-netbsd",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "64-bit NetBSD"
+        }
+      ]
+    },
+    {
+      "name": "Tier 3",
+      "description": "Tier 3 platforms are those which the Rust codebase has support for, but which are not built or tested automatically, and may not work. Official builds are not available",
+      "children": [
+        {
+          "name": "aarch64-linux-android",
+          "components": ["std"],
+          "notes": "ARM64 Android"
+        },
+        {
+          "name": "aarch64-unknown-fuchsia",
+          "components": ["std"],
+          "notes": "Fuchsia OS"
+        },
+        {
+          "name": "armv5te-unknown-linux-gnueabi",
+          "components": ["std"],
+          "notes": "ARMv5TE"
+        },
+        {
+          "name": "armv7-linux-androideabi",
+          "components": ["std"],
+          "notes": "ARMv7a Android"
+        },
+        {
+          "name": "i586-unknown-linux-gnu",
+          "components": ["std"],
+          "notes": "32-bit Linux w/o SSE"
+        },
+        {
+          "name": "i686-linux-android",
+          "components": ["std"],
+          "notes": "32-bit x86 Android"
+        },
+        {
+          "name": "i686-pc-windows-msvc (XP)",
+          "components": ["std"],
+          "notes": "Windows XP support"
+        },
+        {
+          "name": "i686-unknown-freebsd",
+          "components": ["std", "rustc", "cargo"],
+          "notes": "32-bit FreeBSD"
+        },
+        {
+          "name": "i686-unknown-haiku",
+          "components": ["std"],
+          "notes": "Haiku OS"
+        },
+        {
+          "name": "le32-unknown-nacl",
+          "components": ["std"],
+          "notes": "PNaCl sandbox"
+        },
+        {
+          "name": "mips-unknown-linux-uclibc",
+          "components": ["std"],
+          "notes": "MIPS Linux with uClibc"
+        },
+        {
+          "name": "mipsel-unknown-linux-uclibc",
+          "components": ["std"],
+          "notes": "MIPS (LE) Linux with uClibc"
+        },
+        {
+          "name": "thumbv6m-none-eabi",
+          "components": ["*"],
+          "notes": "Bare Cortex-M0, M0+, M1"
+        },
+        {
+          "name": "thumbv7em-none-eabi",
+          "components": ["*"],
+          "notes": "Bare Cortex-M4, M7"
+        },
+        {
+          "name": "thumbv7em-none-eabihf",
+          "components": ["*"],
+          "notes": "Bare Cortex-M4F, M7F, FPU, hardfloat"
+        },
+        {
+          "name": "thumbv7m-none-eabi",
+          "components": ["*"],
+          "notes": "Bare Cortex-M3"
+        },
+        {
+          "name": "x86_64-pc-windows-msvc (XP)",
+          "components": ["std"],
+          "notes": "Windows XP support"
+        },
+        {
+          "name": "x86_64-sun-solaris",
+          "components": ["std", "rustc"],
+          "notes": "64-bit Solaris/SunOS"
+        },
+        {
+          "name": "x86_64-unknown-bitrig",
+          "components": ["std", "rustc"],
+          "notes": "64-bit Bitrig"
+        },
+        {
+          "name": "x86_64-unknown-dragonfly",
+          "components": ["std", "rustc"],
+          "notes": "64-bit DragonFlyBSD"
+        },
+        {
+          "name": "x86_64-unknown-fuchsia",
+          "components": ["std"],
+          "notes": "Fuchsia OS"
+        },
+        {
+          "name": "x86_64-unknown-haiku",
+          "components": ["std"],
+          "notes": "Haiku OS"
+        },
+        {
+          "name": "x86_64-unknown-openbsd",
+          "components": ["std", "rustc"],
+          "notes": "64-bit OpenBSD"
+        }
+      ]
+    }
+  ]
+}
